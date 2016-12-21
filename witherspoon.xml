@@ -4387,11 +4387,11 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_PERIODIC_MEMCAL_MODE_OPTIONS</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_PERIODIC_ZQCAL_MODE_OPTIONS</id>
-		<default></default>
+		<default>0x0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_POWER_CONTROL_REQUESTED</id>
@@ -4449,7 +4449,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default>1866,2133,2400,2667</default>
+		<default>1866,0,0,0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_RANGE</id>
@@ -4561,7 +4561,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VREF_DAC_NIBBLE</id>
-		<default>0</default>
+		<default>0x48</default>
 	</attribute>
 	<attribute>
 		<id>MULTI_SCOM_BUFFER_MAX_SIZE</id>
@@ -14992,7 +14992,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -26636,7 +26636,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_CAL_STEP_ENABLE</id>
-		<default>0</default>
+		<default>0xFAC0,0xFAC0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CHANNEL_PAIR_MAXBANDWIDTH_GBS</id>
@@ -26792,7 +26792,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_DPHY_RLO</id>
-		<default>0</default>
+		<default>0x04,0x04</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_DPHY_WLO</id>
@@ -26988,11 +26988,11 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_TSYS_ADR</id>
-		<default>0</default>
+		<default>0x12</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_TSYS_DATA</id>
-		<default>0</default>
+		<default>0x0D</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MT_0_VERSION_LAYOUT</id>
@@ -29169,7 +29169,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_CAL_STEP_ENABLE</id>
-		<default>0</default>
+		<default>0xFAC0,0xFAC0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CHANNEL_PAIR_MAXBANDWIDTH_GBS</id>
@@ -29325,7 +29325,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_DPHY_RLO</id>
-		<default>0</default>
+		<default>0x04,0x04</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_DPHY_WLO</id>
@@ -29521,11 +29521,11 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_TSYS_ADR</id>
-		<default>0</default>
+		<default>0x12</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_TSYS_DATA</id>
-		<default>0</default>
+		<default>0x0D</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MT_0_VERSION_LAYOUT</id>
@@ -31899,7 +31899,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_CAL_STEP_ENABLE</id>
-		<default>0</default>
+		<default>0xFAC0,0xFAC0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CHANNEL_PAIR_MAXBANDWIDTH_GBS</id>
@@ -32055,7 +32055,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_DPHY_RLO</id>
-		<default>0</default>
+		<default>0x04,0x04</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_DPHY_WLO</id>
@@ -32251,11 +32251,11 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_TSYS_ADR</id>
-		<default>0</default>
+		<default>0x12</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_TSYS_DATA</id>
-		<default>0</default>
+		<default>0x0D</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MT_0_VERSION_LAYOUT</id>
@@ -34432,7 +34432,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_CAL_STEP_ENABLE</id>
-		<default>0</default>
+		<default>0xFAC0,0xFAC0</default>
 	</attribute>
 	<attribute>
 		<id>MSS_CHANNEL_PAIR_MAXBANDWIDTH_GBS</id>
@@ -34588,7 +34588,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_DPHY_RLO</id>
-		<default>0</default>
+		<default>0x04,0x04</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_DPHY_WLO</id>
@@ -34784,11 +34784,11 @@
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_TSYS_ADR</id>
-		<default>0</default>
+		<default>0x12</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MR_TSYS_DATA</id>
-		<default>0</default>
+		<default>0x0D</default>
 	</attribute>
 	<attribute>
 		<id>MSS_VPD_MT_0_VERSION_LAYOUT</id>
