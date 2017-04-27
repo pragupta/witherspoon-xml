@@ -20239,7 +20239,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -20391,7 +20391,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -20690,7 +20690,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>9</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -20842,7 +20842,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>10</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
@@ -20994,7 +20994,7 @@
 	</attribute>
 	<attribute>
 		<id>CHIP_UNIT</id>
-		<default>0</default>
+		<default>11</default>
 	</attribute>
 	<attribute>
 		<id>CLASS</id>
